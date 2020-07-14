@@ -36,16 +36,16 @@
 		/*uncomment this block of code if you want to create the table where the emails will be stored, don't bother if you
 		already have the table*/
 
-// 		$table = "CREATE TABLE mails (
-// 	 		id INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-// 	 		mails VARCHAR(100) NOT NULL
-// 	 )";
+	// 	$table = "CREATE TABLE mails (
+	// 		id INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	// 		mails VARCHAR(100) NOT NULL
+	// )";
 
-// 	 if($conn->query($table) == true) {
-// 	 	echo "Table created";
-// 	 } else {
-// 	 	echo "Error creating " .$conn->error;
-// 	 }
+	// if($conn->query($table) == true) {
+	// 	echo "Table created";
+	// } else {
+	// 	echo "Error creating " .$conn->error;
+	// }
 
 		//when the submit button is clicked
 		if(isset($_POST["submit"])) {
@@ -74,8 +74,8 @@
 
 
 
-          <div class="container-fluid p-0" id="mainbody">
-            <a href="#" class="navbar-brand pl-5"><h1 class=""><img src="./assets/images/frame 3.svg" alt="logo.svg"></h1></a>
+<!--           <div class="container-fluid p-0" id="mainbody"> -->
+<!--             <a href="#" class="navbar-brand pl-5"><h1 class=""><img src="./assets/images/frame 3.svg" alt="logo.svg"></h1></a> -->
                 <div class="form-sect">
                   <h2>Enter email address: </h2>
 	                	<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="POST">
