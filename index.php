@@ -70,20 +70,6 @@
 		}
 
 	?>
-	<!-- <h2>Enter email address: </h2>
-		<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="POST">
-			<input type="text" name="email" placeholder="Enter email" value="<?php echo $email ?>"><br>
-			<span class="error"><?php echo $error ?></span>  SSshow errors if any<br>
-			<button type="submit" name="submit">Submit</button>
-			<br>
-			<span><?php echo $responseMsg ?></span> $$returns response message -->
-    <!-- </form>		 -->
-
-
-
-
- 
-    
 
 
 

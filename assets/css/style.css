@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'muli', sans-serif ;
+}
+html{
+    max-width: 100%;
+    /* overflow-y: hidden; */
+  }
+body{
+    background-color: #F6F4F2;
+}
+#mainbody{
+    background-color:  #021859;
+    width: 100%;
+    height: 200vh;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    animation-name: intro;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+ @keyframes intro {
+    0% {top: 50%; bottom: 50%; height: 5vh; }
+    25% {top: 40%; bottom: 40%; height: 30vh;}
+    50% {top: 30%; bottom: 30%; height: 50vh;}
+    75% {top: 20%; bottom: 20%; height: 75vh;}
+    100% {top: 0%; bottom: 0%; height: 100vh;}
+} 
+
+.text-pack{
+    width: 30% !important;
+}
+.text-head{
+    width:600px !important;
+    font-family: 'lora', sans-serif;
+    font-size: 48px;
+    color: #D9D1B8;
+    line-height: 56px;
+    opacity: 0;
+    animation-name: texthead;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+}
+@keyframes texthead {
+    0% {opacity: 0;}
+    25% {opacity: 0.1;}
+    50% {opacity: 0.3;}
+    75% {opacity: 0.6;}
+    100% {opacity: 1;}
+} 
+
+.text-pack{
+    font-family: 'muli', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    animation-name: textpack;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes textpack {
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    50% {opacity: 0;}
+    75% {opacity: 0.7;}
+    100% {opacity: 1;}
+} 
+form{
+    opacity: 0;
+    animation-name: form;
+    animation-delay: 3s;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    margin-left: -200px;
+}
+@keyframes form {
+    0% {opacity: 0; }
+    25% {opacity: 0.0;}
+    50% {opacity: 0.0;}
+    75% {opacity: 0.7;}
+    100% {opacity: 1; margin-left: 0px;}
+} 
+
+form input[type = email]{
+  width: 465px;
+  border: 1px solid #D9D1B8;
+  background-color: #021859;
+  outline: none;
+  border-top-color: #021859;
+  border-left-color: #021859;
+  border-right-color: #021859;
+  color: #D9D1B8;
+}
+
+form button{
+    background-color: #F6F4F2;
+    border-color: #F6F4F2;
+    color: #021859;
+    border-radius: 8px;
+    padding: 16px 40px;
+    font-weight: bolder;
+    outline: none;
+    border-style: none;
+}
+/* form button:hover{
+    background-color: cornsilk;
+    
+} */
+.form-container{
+    padding-bottom: 150px !important;
+    animation-name: form-sect;
+}
+@keyframes form-sect{
+
+}
+.break{
+    background-color: #FFFFFF;
+    height: 450px;
+    animation-name: sect2;
+}
+@keyframes sect2{
+    
+}
+.jumbotron{
+    background-color: #FFFFFF !important;
+    animation-name: jumbo;
+}
+@keyframes jumbo{
+    
+}
+.div-line{
+    background-color: black;
+    width: 3px;
+    height: 70px;
+}
+
+.span-div-line{
+    position: relative;
+    left: 100%;
+    bottom: 95px;
+    animation-name: div-line;
+    
+}
+@keyframes div-line{
+    
+}
+
+.span-text{
+    width: 350px;
+    position: absolute;
+    font-size: 18px;
+    line-height: 30px;
+    color: #082359;
+    animation-name: span-text;
+}
+@keyframes div-line{
+    
+}
+.lists{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    color: #082359;
+    animation-name: list;
+}
+@keyframes list{
+    
+}
+.span-logo{
+ font-size: 32px;
+ line-height: 48px;
+ color: #082359;
+ position: relative;
+ left: 50%;
+ animation-name: span-logo;
+}
+@keyframes span-logo{
+    
+}
