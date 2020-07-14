@@ -15,10 +15,10 @@
 <body>
 	<?php 
 	//server connection details
-		$servername = "us-cdbr-east-02.cleardb.com";//insert the name of your server
-		$username = "b83e1f8d0dc2a1"; //insert your mysql username
-		$password = "7798c54a"; //insert your password
-		$dbname = "heroku_c00be461adff00f"; //insert your database name
+		$servername = "l7cup2om0gngra77.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";//insert the name of your server
+		$username = "irohlti4fz5al48f"; //insert your mysql username
+		$password = "pddk54zwgdhs8k9f"; //insert your password
+		$dbname = "isjd2wpawrexdl1k"; //insert your database name
 
 		//establish new connection to mysql database
 		$conn = new mysqli($servername, $username, $password, $dbname);
@@ -36,16 +36,16 @@
 		/*uncomment this block of code if you want to create the table where the emails will be stored, don't bother if you
 		already have the table*/
 
-	// 	$table = "CREATE TABLE mails (
-	// 		id INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-	// 		mails VARCHAR(100) NOT NULL
-	// )";
+		$table = "CREATE TABLE mails (
+	 		id INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	 		mails VARCHAR(100) NOT NULL
+	 )";
 
-	// if($conn->query($table) == true) {
-	// 	echo "Table created";
-	// } else {
-	// 	echo "Error creating " .$conn->error;
-	// }
+	 if($conn->query($table) == true) {
+	 	echo "Table created";
+	 } else {
+	 	echo "Error creating " .$conn->error;
+	 }
 
 		//when the submit button is clicked
 		if(isset($_POST["submit"])) {
