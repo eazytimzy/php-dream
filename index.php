@@ -15,10 +15,10 @@
 <body>
 	<?php 
 	//server connection details
-		$servername = "sql2.freemysqlhosting.nett";//insert the name of your server
-		$username = "sql2354830"; //insert your mysql username
-		$password = "vW4!qT1%"; //insert your password
-		$dbname = "sql2354830"; //insert your database name
+		$servername = "us-cdbr-east-02.cleardb.com";//insert the name of your server
+		$username = "b83e1f8d0dc2a1"; //insert your mysql username
+		$password = "7798c54a"; //insert your password
+		$dbname = "heroku_c00be461adff00f"; //insert your database name
 
 		//establish new connection to mysql database
 		$conn = new mysqli($servername, $username, $password, $dbname);
