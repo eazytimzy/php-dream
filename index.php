@@ -36,16 +36,16 @@
 		/*uncomment this block of code if you want to create the table where the emails will be stored, don't bother if you
 		already have the table*/
 
-	// 	$table = "CREATE TABLE mails (
-	// 		id INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-	// 		mails VARCHAR(100) NOT NULL
-	// )";
+		$table = "CREATE TABLE mails (
+	 		id INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	 		mails VARCHAR(100) NOT NULL
+	 )";
 
-	// if($conn->query($table) == true) {
-	// 	echo "Table created";
-	// } else {
-	// 	echo "Error creating " .$conn->error;
-	// }
+	 if($conn->query($table) == true) {
+	 	echo "Table created";
+	 } else {
+	 	echo "Error creating " .$conn->error;
+	 }
 
 		//when the submit button is clicked
 		if(isset($_POST["submit"])) {
