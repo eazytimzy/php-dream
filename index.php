@@ -15,10 +15,10 @@
 <body>
 	<?php 
 	//server connection details
-		$servername = "localhost";//insert the name of your server
-		$username = "root"; //insert your mysql username
-		$password = "Eazytimzy22553"; //insert your password
-		$dbname = "dreamland-emails"; //insert your database name
+		$servername = "sql2.freemysqlhosting.nett";//insert the name of your server
+		$username = "sql2354830"; //insert your mysql username
+		$password = "vW4!qT1%"; //insert your password
+		$dbname = "sql2354830"; //insert your database name
 
 		//establish new connection to mysql database
 		$conn = new mysqli($servername, $username, $password, $dbname);
